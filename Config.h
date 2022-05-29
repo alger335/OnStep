@@ -176,7 +176,7 @@
 // AXIS4 FOCUSER 1
 // see https://onstep.groups.io/g/main/wiki/Configuration-Rotator-and-Focusers#AXIS4
 #define FOCUSER1                       ON //    OFF, ON to enable this focuser.                                               Option
-#define AXIS4_STEPS_PER_MICRON        5.9 //    0.5, n. Steps per micrometer. Figure this out by testing or other means.      Adjust
+#define AXIS4_STEPS_PER_MICRON        1.5 //    0.5, n. Steps per micrometer. Figure this out by testing or other means.      Adjust
 #define AXIS4_SLEW_RATE_DESIRED      1000 //    500, n, Where n=200..5000 (um/s.) Max microns/second. In DC mode, max pwr %   Adjust
 
 #define AXIS4_DRIVER_MODEL            OFF //    OFF, TMC2130, TMC5160. Leave OFF for all drivers models except these.         Option
